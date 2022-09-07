@@ -10,8 +10,7 @@ According to these P-values, assuming that the significance level is equal to 0.
 The vehicle length having a p-value of 2.60e-12
 The ground clearance having a p-value of 5.21e-08
 
-
-￼ IMAGE D1 summary 
+![D1_Summary.png](Resources/D1_Summary.png)
 
 * Is the slope of the linear model considered to be zero? Why or why not?
 
@@ -19,7 +18,7 @@ In the image of the Linear_regression results (below) we have evidence that the 
 
 Mpg = 6.267 vehicle_length + .001245 vehicle_weight + .06877 spoiler_angle + 3.546 ground_clearance - 3.411 AWD - 104
 
-￼ IMAGE D1 LINEAR MODEL
+![D1_Linear_regression.png](Resources/D1_Linear_regression.png)
 
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
@@ -34,14 +33,14 @@ Deliverable 2
 As seen in the Total_summary table pictured below, the variance of all manufacturing lots of suspension coils is approximately 62.29 pounds per square inch. This meets the required design specification, which is a variance value below 100 pounds per square inch.
 
 
-￼ IMAGE TOTAL SUMMARY
+![D2_Total_summary.png](Resources/D2_Total_summary.png)
 
 However, when I breakdown this data and observe the variance of each manufacturing lot it appears that one of the manufacturing lots is far above the required variance value. The results of this analysis can be seen in the Lot_summary table pictured below. 
 
 Lot 1 and Lot 2 are far below the limit with variance values of 0.98 and 7.47, respectively. 
 Lot 3 is much higher than the required limit, with a variance value of 170.29. It is possible that the data recorded from this manufacturing lot skewed the results in the Total_summary table, above. 
 
-￼ IMAGE LOT SUMMARY
+![D2_Lot_summary.png](Resources/D2_Lot_summary.png)
 
 Deliverable 3
 ## T-Tests on Suspension Coils
@@ -50,21 +49,21 @@ After performing 4 t-tests on the suspension coil data I was able to find eviden
 
 When testing a sample of 50 random entries from the entire dataset I observed a p-value of 0.7199. Since this value is greater than the significance level of 0.05, we would fail to reject the null hypothesis and consider there is no statistical difference.
 
-￼ IMAGE TOTAL T TEST
+![D3_Sample.png](Resources/D3_Sample.png)
 
 Additionally, when performing the t-test on a sample of 50 random entries from a subset of the dataset having manufacturing lot 3 I observed a p-value of 0.1549. Since this is also greater than the significance level of 0.05, we would fail to reject the null hypothesis and consider there is no statistical difference between samples from manufacturing lot 3 and the total dataset.
 
-￼ IMAGE LOT 3 T TEST
+![D3_Lot3.png](Resources/D3_Lot3.png)
 
 However, when performing the t-test on samples yield from manufacturing lots 1 and 2 I observed p-values that suggested there is a statistical difference in these subsets.
 
 When performing the t-test on a sample of 50 random entries from a subset of the dataset having manufacturing lot 1 I observed a p-value of 9.35e-12. Since this is much smaller than the significance level of 0.05, we would reject the null hypothesis, suggesting that there is a statistical difference between samples from manufacturing lot 1 and the total dataset.
 
-￼ IMAGE LOT 1 T TEST
+![D3_Lot1.png](Resources/D3_Lot1.png)
 
 When performing the t-test on a sample of 50 random entries from a subset of the dataset having manufacturing lot 2 I observed a p-value of 5.082e-4. Since this is much smaller than the significance level of 0.05, we would reject the null hypothesis, suggesting that there is a statistical difference between samples from manufacturing lot 2 and the total dataset.
 
-￼ IMAGE LOT 2 T TEST
+![D3_Lot2.png](Resources/D3_Lot2.png)
 
 
 ## Study Design: MechaCar vs Competition

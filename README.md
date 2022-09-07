@@ -1,6 +1,8 @@
 # MechaCar_Statistical_Analysis
 ## Linear Regression to Predict MPG
 
+### Multiple variables introduce non-random variance to the dependent variable.
+
   Using the summary of the linear regression model, pictured below, we can assume that mpg is affected by several non-random factors. I’ve come to this conclusion by analyzing the P-value of each variable, labeled in the image as Pr(>|t|) and highlighted in a red box.
 
   According to these P-values, assuming that the significance level is equal to 0.05, we have sufficient evidence to reject a null hypothesis and acknowledge that these variables provide a statistical difference :
@@ -11,6 +13,8 @@ The ground clearance - p-value of 5.21e-08
 
 ![D1_Summary.png](Resources/D1_Summary.png)
 
+### There is evidence to show that the slope of the linear model is non-zero.
+
   In the image of the Linear regression results (below) we have evidence that the slope of the linear model is not zero. Each variable contributes a coefficient value representing the impact that the variable has on the dependent variable, mpg. Plugging the coefficient values into the linear regression equation gives the following linear regression model:
 
 Mpg = 6.267 vehicle_length + .001245 vehicle_weight + .06877 spoiler_angle + 3.546 ground_clearance - 3.411 AWD - 104
@@ -18,16 +22,20 @@ Mpg = 6.267 vehicle_length + .001245 vehicle_weight + .06877 spoiler_angle + 3.5
 ![D1_Linear_regression.png](Resources/D1_Linear_regression.png)
 
 
-### Does this linear model predict mpg of MechaCar prototypes effectively? 
+### This linear model predicts the mpg of MechaCar prototypes effectively.
 
   From the Multiple R-squared value - highlighted with a red box in the first image - we can conclude that 71.5% of the variability in MPG can be accounted for by the linear regression model. This is sufficient evidence to show that this linear model can predict the mpg of prototypes effectively. 
 
 
 ## Summary Statistics on Suspension Coils
 
+### Overall, the manufacturing data meets the required design specifications.
+
   As seen in the total summary table pictured below, the variance of all manufacturing lots of suspension coils is approximately 62.29 pounds per square inch. This meets the required design specification, which is a variance value below 100 pounds per square inch.
 
 ![D2_Total_summary.png](Resources/D2_Total_summary.png)
+
+### Not all manufacturing lots satify this requirement. 
 
   However, when I breakdown this data and observe the variance of each manufacturing lot it appears that one of the manufacturing lots is far above the required variance value. The results of this analysis can be seen in the lot summary table pictured below. 
 

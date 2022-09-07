@@ -11,13 +11,16 @@ The ground clearance - p-value of 5.21e-08
 
 ![D1_Summary.png](Resources/D1_Summary.png)
 
-  In the image of the Linear regression results (below) we have evidence that the slope of the linear model is not zero. Each variable contributes a coefficient value representing the impact that the variable has on the depends variable, mpg. Plugging the coefficient values into the linear regression equation gives the following linear regression model:
+  In the image of the Linear regression results (below) we have evidence that the slope of the linear model is not zero. Each variable contributes a coefficient value representing the impact that the variable has on the dependent variable, mpg. Plugging the coefficient values into the linear regression equation gives the following linear regression model:
 
 Mpg = 6.267 vehicle_length + .001245 vehicle_weight + .06877 spoiler_angle + 3.546 ground_clearance - 3.411 AWD - 104
 
 ![D1_Linear_regression.png](Resources/D1_Linear_regression.png)
 
-  From the Multiple R-squared value we can conclude that 71.5% of the variability in MPG can be accounted for by the linear regression model. This is sufficient evidence to show that this linear model can predict the mpg of prototypes effectively. 
+
+### Does this linear model predict mpg of MechaCar prototypes effectively? 
+
+  From the Multiple R-squared value - highlighted with a red box in the first image - we can conclude that 71.5% of the variability in MPG can be accounted for by the linear regression model. This is sufficient evidence to show that this linear model can predict the mpg of prototypes effectively. 
 
 
 ## Summary Statistics on Suspension Coils

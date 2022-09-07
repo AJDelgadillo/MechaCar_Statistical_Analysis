@@ -3,10 +3,11 @@
 
   Using the summary of the linear regression model, pictured below, we can assume that mpg is affected by several non-random factors. I’ve come to this conclusion by analyzing the P-value of each variable, labeled in the image as Pr(>|t|) and highlighted in a red box.
 
-  According to these P-values, assuming that the significance level is equal to 0.05, we have sufficient evidence to reject a null hypothesis and acknowledge they provide a statistical difference :
+  According to these P-values, assuming that the significance level is equal to 0.05, we have sufficient evidence to reject a null hypothesis and acknowledge that these variables provide a statistical difference :
 
-The vehicle length having a p-value of 2.60e-12
-The ground clearance having a p-value of 5.21e-08
+The vehicle length - p-value of 2.60e-12
+
+The ground clearance - p-value of 5.21e-08
 
 ![D1_Summary.png](Resources/D1_Summary.png)
 
